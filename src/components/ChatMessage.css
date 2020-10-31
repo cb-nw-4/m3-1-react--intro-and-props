@@ -1,0 +1,29 @@
+.chat-message {
+    display: flex;
+    padding: 10px;
+
+}
+
+.user-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    align-self: flex-end;
+    margin: 0 15px;
+}
+
+.user-name {
+   margin-bottom: 0px;
+   font-size: 13px;
+   font-weight: bold;
+   
+}
+
+.user-message {
+    background-color:#e9e9eb;
+    padding: 12px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
