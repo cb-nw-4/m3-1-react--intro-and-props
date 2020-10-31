@@ -1,5 +1,6 @@
 import React from 'react';
 import './ChatMessage.css';
+import Avatar from './Avatar';
 
 const ChatMessage = (props) => {
     console.log(props);    
@@ -21,7 +22,7 @@ const SentMessage = (props) => {
 
 const ReceivedMessage = (props) => {
     return <div className='chat-message'>
-        <img className='user-avatar' src={props.message.user.avatar} alt="avatar" />
+        <Avatar src={props.message.user.avatar} size={{width: "35px", height: "35px"}} alt="avatar" />
         <div>
             <p className='user-name'>{props.message.user.username}</p>
             <p className='user-message'>{props.message.body}</p>
