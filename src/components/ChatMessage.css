@@ -3,7 +3,9 @@
     margin: 20px;
    
 }
-
+.sent {
+    justify-content: flex-end;
+}
 
 .avatar{
     align-self: flex-end
@@ -24,8 +26,18 @@ img{
 }
 
 .bodyText{
-    background-color: #F5F5F5;
     padding: 20px;
     border-radius: 20px;
     margin:  0 20px;
 }
+
+.sent .bodyText{
+    color: #fff;
+    background-color: #1185f7;
+}
+
+.received .bodyText{
+    color: #000;
+    background-color: #e9e9eb;
+}
+

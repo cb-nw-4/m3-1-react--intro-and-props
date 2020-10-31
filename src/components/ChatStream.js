@@ -14,10 +14,20 @@ import './ChatStream.css';
 const ChatStream = (props) => {
   return <section className='chat-stream'>
     {props.messages.map((message) => {
+
+      let messageType;
+
+      if(message.user === props.currentUser){
+        messageType ='sent'
+      }else{
+        messageType = 'received'
+      }
       return (
         <ChatMessage 
           key={message.id}
           message={message}
+          messageType={messageType}
+        
          />
       )
     })
