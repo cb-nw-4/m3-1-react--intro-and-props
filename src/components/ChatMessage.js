@@ -18,9 +18,9 @@ const ChatMessage = (props) => {
 
 
 const SentMessage =(props) =>{
-    console.log('props sent', props)
+    //console.log('props sent', props)
     
-    const   {user, body} = props.message
+    const   {body} = props.message
              
     return (
         <div className='chat-message sent'>  
