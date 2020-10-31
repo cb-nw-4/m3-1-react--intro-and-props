@@ -6,14 +6,21 @@ import Footer from './Footer';
 
 import './App.css';
 
-const App = (props) => {
+// const App = ({currentUser, conversation}) => {
+    // console.log(currentUser, conversation)
+  const App = (props) => {
   return (
     <div className='wrapper'>
-      <Header />
-      <ChatStream />
+      <Header
+      participants={props.conversation.participants}
+      currentUser={props.currentUser}
+      />
+      <ChatStream
+        messages={props.conversation.messages}
+        currentUser={props.currentUser}
+      />
       <Footer />
     </div>
   );
 };
-
 export default App;
