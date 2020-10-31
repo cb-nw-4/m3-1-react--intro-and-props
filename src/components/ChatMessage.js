@@ -1,18 +1,16 @@
 import React from "react";
+import ReceivedMessage from './ReceivedMessage'
+import SentMessage from './SentMessage'
 
 import "./ChatMessage.css";
 
-const ChatMessage = (props) => {
-  console.log(props);
-  return (
-    <div className="chat-message">
-      <img src={props.message.user.avatar} />
-      <div className="name-message">
-        <p className="user-name">{props.message.user.username}</p>
-        <p className="para-message"> {props.message.body}</p>
-      </div>
-    </div>
-  );
-};
+const ChatMessage = ({message, messageType}) => {
+
+  if (messageType === "sent") {
+    return <SentMessage user={message.user} body={message.body} />;
+  } else {
+    return <ReceivedMessage user={message.user} body={message.body} />;
+  }
+}
 
 export default ChatMessage;
