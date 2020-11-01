@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.header-user{
+    font-weight: bold;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    margin: 5px;
+    text-align: center;
+    
+}
