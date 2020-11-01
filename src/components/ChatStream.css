@@ -10,3 +10,16 @@
 .chat-stream {
   flex: 1;
 }
+
+.message-sent {
+  background-color: #1185f7;
+  color: #FFF;
+}
+
+.message-received {
+  position: relative;
+  background-color: #e9e9eb;
+  color: #000;
+  left: 15px;
+  top: -20px;
+}
