@@ -26,13 +26,13 @@
 .gray-bubble {
     position: relative;
     left: 10px;
-    top: -12px;
-    transform: scale(1.8, 1.8) rotate(20deg);
+    top: -10px;
+    transform: scale(1.8, 1.8);
 }
 
 .blue-bubble {
     position: relative;
     left: -6px;
-    top: 8px;
-    transform: scale(1.8, 1.8) rotate(-20deg);
+    top: 10px;
+    transform: scale(1.8, 1.8);
 }
