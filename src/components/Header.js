@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.css';
 
 const Header = (props) => {
-  return <header>{/* Your code here! */}</header>;
+  return <header>{/* Your code here! */"Hello world!"}</header>;
 };
 
 export default Header;
