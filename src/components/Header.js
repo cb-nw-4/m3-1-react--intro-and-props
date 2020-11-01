@@ -6,7 +6,7 @@ import Avatar from './Avatar.js';
 const Header = (props) => {
   return (
     <header>{props.participantsInHeader.map(participant => {
-      if (participant.username !== 'Elaine') {
+      if (participant.username !== props.personWriting.username) {
         return (
           <div className='participant-container'>
             <Avatar
