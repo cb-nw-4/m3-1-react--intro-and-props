@@ -14,7 +14,7 @@ const ChatStream = (props) => {
           />
         );
       }
-      else if (item.user.username !== props.personWriting.username) {
+      else {
         return (
           <ChatMessage 
             message={item}
@@ -22,7 +22,7 @@ const ChatStream = (props) => {
           />
         );
       }
-    })};
+    })}
     </section>
   );
 }
