@@ -15,6 +15,7 @@ const SentMessage = (props) => {
     return (
     <div className='sent-container'>
         <p className='message-sent'>{props.message.body}</p>
+        <img className='blue-bubble' src='/assets/tip-sent.svg' alt='blue bubble tip'/>
     </div>
     );
 }
@@ -27,6 +28,7 @@ const ReceivedMessage = (props) => {
             imageUrl={props.message.user.avatar}
             size={50}
             /> 
+        <img className='gray-bubble' src='/assets/tip-received.svg' alt='gray bubble tip'/>
         <p className='message-received'>{props.message.body}</p>
     </div>
     );

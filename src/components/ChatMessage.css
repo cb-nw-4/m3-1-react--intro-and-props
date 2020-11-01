@@ -22,3 +22,17 @@
     margin-bottom: 0;
     color: rgb(109, 106, 106);
 }
+
+.gray-bubble {
+    position: relative;
+    left: 10px;
+    top: -12px;
+    transform: scale(1.8, 1.8) rotate(20deg);
+}
+
+.blue-bubble {
+    position: relative;
+    left: -6px;
+    top: 8px;
+    transform: scale(1.8, 1.8) rotate(-20deg);
+}
