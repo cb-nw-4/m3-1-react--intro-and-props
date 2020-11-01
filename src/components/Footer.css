@@ -1,8 +1,18 @@
 footer {
-  /* 
-    These two lines replicate the "blurry white background"
-    effect, as seen in iMessage
-  */
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
   backdrop-filter: blur(40px);
   background-color: rgba(255, 255, 255, 0.4);
+  height: 100px;
+  width: 100vw;
+}
+
+.input-field {
+  height: 65px;
+  width: 80%;
+  border-radius: 20px;
+  border: 2px solid rgba(167, 165, 165, 0.4);
 }
