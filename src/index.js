@@ -12,6 +12,7 @@ ReactDOM.render(
   <App 
     currentUser={data.currentUser} 
     conversation={data.conversation} 
+    participants={data.conversation.participants}
   />,
   rootElement
 );
