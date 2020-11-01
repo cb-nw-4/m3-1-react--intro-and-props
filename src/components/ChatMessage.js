@@ -5,7 +5,6 @@ import SentMessage from './SentMessage'
 import "./ChatMessage.css";
 
 const ChatMessage = ({message, messageType}) => {
-
   if (messageType === "sent") {
     return <SentMessage user={message.user} body={message.body} />;
   } else {

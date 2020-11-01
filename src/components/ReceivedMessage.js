@@ -2,7 +2,6 @@ import React from "react";
 import "./ChatMessage.css";
 
 const ReceivedMessage = (props) => {
-  console.log(props,'hey')
   return <div className='received-message'>
     <img src={props.user.avatar} />
       <div className="name-message">
