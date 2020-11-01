@@ -7,6 +7,7 @@ const ReceivedMessage = (props) => {
       <div className="name-message">
         <p className="user-name">{props.user.username}</p>
         <p className="para-message"> {props.body}</p>
+        <img className="received-tip" src="./assets/tip-received.svg" />
       </div>
   </div>
 }

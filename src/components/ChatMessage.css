@@ -1,14 +1,21 @@
 .my-message > .name-message {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 
 .my-message > .name-message > .para-message {
-  background-color: lightskyblue;
+  background-color: #1982FC;
   color: white;
-  border-radius: 10px;
-  padding: 1rem;
+  border-radius: 15px;
+  padding: 1.2rem;
   margin: 1rem;
+}
+
+.my-message > .name-message > .sent-tip {
+  position: absolute;
+  bottom: 15px;
+  right: 8px;
 }
 
 .my-message > .name-message > .user-name {
@@ -33,16 +40,23 @@
 }
 
 .received-message > .name-message {
+  position: relative;
 }
-/* .received-message > .name-message {
-  display: flex;
-  justify-content: flex-start;
-} */
+
+
+.received-message > .name-message > .received-tip {
+  position: absolute;
+  bottom: 14px;
+  left: -10px;
+}
+
 
 .received-message > .name-message > .para-message {
-  background-color: lightgray;
+  background-color: #ededed;
   color: black;
   border-radius: 10px;
   padding: 1rem;
   /* margin: 1rem; */
 }
+
+
