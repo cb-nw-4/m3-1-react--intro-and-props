@@ -3,7 +3,11 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = (props) => {
-  return <footer>{/* Your code here! */}</footer>;
+  return <footer>{
+    <div className="replyContainer">
+      <input className="replyField"></input>
+    </div>
+    }</footer>;
 };
 
 export default Footer;

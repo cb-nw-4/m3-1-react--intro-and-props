@@ -1,8 +1,36 @@
+.replyContainer{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 30px;
+  margin: 0px;
+  backdrop-filter: blur(200px);
+  background-color: rgba(255, 255, 255, 0.4);
+  
+
+}
+
+.replyField{
+  width: 70%;
+  padding: 7px;
+  border-radius: 10px;
+
+}
+
 footer {
   /* 
     These two lines replicate the "blurry white background"
     effect, as seen in iMessage
   */
-  backdrop-filter: blur(40px);
-  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  padding: 20px;
+  margin: 0px;
+  margin-top: 80px;
+  padding: 0px;
+  
+  
 }
