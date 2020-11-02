@@ -2,8 +2,7 @@ import React from 'react';
 import './ChatMessage.css';
 import Avatar from './Avatar';
 
-const ChatMessage = (props) => {
-    console.log(props);    
+const ChatMessage = (props) => {    
     if (props.messageType === 'sent') {
         return <SentMessage message={props.message} />;
     } else {

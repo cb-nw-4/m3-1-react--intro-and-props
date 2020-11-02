@@ -8,7 +8,7 @@ import './App.css';
 
 const App = (props) => {
   console.log(props);
-  return (
+  return (     
     <div className='wrapper'>
       <Header        
         participants={props.conversation.participants.filter((participant)=>{
@@ -19,7 +19,7 @@ const App = (props) => {
         currentUser={props.currentUser} 
         messages={props.conversation.messages}
       />
-      <Footer />
+      <Footer />    
     </div>
   );
 };
