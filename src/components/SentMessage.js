@@ -4,9 +4,14 @@ import './ChatMessage.css';
 const SentMessage= (props)=>{
     //console.log(props);
     return(
-        <div className="sent main">
-            {props.message}
+        <div>
+            <div className="sent main">
+                {props.message}
+                
+            </div>
+            <img src="/assets/tip-sent.svg" className="sentTip"/>
         </div>
+        
     );
 };
 
