@@ -20,9 +20,23 @@
 }
 
 .main{
-    margin-bottom: 10px;
+    margin-bottom: 10px;;
 }
 
 .main>div{
     display: flex;
+}
+
+.sent{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left:auto;
+    max-width: max-content;
+    min-width: 20px;
+    padding: 10px;
+    background-color: 	#1987f8;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
 }
