@@ -1,0 +1,57 @@
+.chat-message { 
+    display: flex;
+    margin-top : 10px;
+    margin-bottom : 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items:flex-end;
+}
+
+.avatar { 
+    height:25px;
+    border-radius: 50%;
+}
+
+.message { 
+    background-color: #E9E9EB;
+    padding: 7px;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.messageDiv { 
+    font-size: 10px;
+}
+
+.subMessageDivReceived { 
+    margin-left: 5px;
+}
+
+.sent-chat-message { 
+    justify-content: flex-end;
+}
+
+.sentMessage { 
+    color: white;
+    background-color: #1185F7;
+}
+
+.subMessageDiv, .messageDivSent { 
+    display: flex;
+    align-items: flex-end;
+}
+
+.chatMessageHook { 
+    width: 10px;
+    position: relative;
+}
+
+.hookReceived { 
+    left:4px;
+}
+
+.hookSent { 
+    right:4px;
+}
+
