@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ChatMessage from './ChatMessage.js';
 import './ChatStream.css';
 
 // The current user's messages should have:
