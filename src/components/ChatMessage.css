@@ -1,0 +1,28 @@
+.userName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.userPic{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+}
+
+.chat-message{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #e9e9eb;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.main{
+    margin-bottom: 10px;
+}
+
+.main>div{
+    display: flex;
+}
