@@ -7,10 +7,12 @@ import Footer from './Footer';
 import './App.css';
 
 const App = (props) => {
-  //console.log(props)
+  //console.log(props.conversation.participants,props.currentUser);
   return (
     <div className='wrapper'>
-      <Header />
+      <Header 
+      participants={props.conversation.participants.filter(element=>element!=props.currentUser)}
+      />
       <ChatStream 
       messages={props.conversation.messages} 
       currentUser={props.currentUser}/>
@@ -20,3 +22,4 @@ const App = (props) => {
 };
 
 export default App;
+
