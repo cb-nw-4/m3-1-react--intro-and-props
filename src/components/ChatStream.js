@@ -11,8 +11,7 @@ import './ChatStream.css';
 // - a text color of #000
 // - a background color of #e9e9eb
 
-const ChatStream = (props) => {
-  console.log(props);
+const ChatStream = (props) => {  
   return (
     <section className='chat-stream'>
       {props.messages.map((message) => {

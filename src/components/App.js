@@ -6,8 +6,7 @@ import Footer from './Footer';
 
 import './App.css';
 
-const App = (props) => {
-  console.log(props);
+const App = (props) => {  
   return (     
     <div className='wrapper'>
       <Header        

@@ -3,8 +3,7 @@ import Avatar from './Avatar'
 
 import './Header.css';
 
-const Header = (props) => { 
-  console.log("header", props.participants);
+const Header = (props) => {   
   return ( 
     <header>       
       { props.participants.map((participant, index)=>{
