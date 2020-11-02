@@ -4,5 +4,20 @@ footer {
     effect, as seen in iMessage
   */
   backdrop-filter: blur(40px);
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.4); 
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footerTextInput { 
+  width: 90%;
+  height: 70%;
+  background-color: white;
+  border: 1px solid #E9E9EB;
+  border-radius: 10px;
 }
