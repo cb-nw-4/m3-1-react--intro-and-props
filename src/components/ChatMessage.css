@@ -19,10 +19,6 @@
     font-size: 14px;
 }
 
-.main{
-    margin-bottom: 10px;;
-}
-
 .main>div{
     display: flex;
 }
@@ -45,7 +41,7 @@
 .sentTip{
     float:right;
     position: relative;
-    bottom:28px;
+    bottom:20px;
 }
 
 .receivedTip{

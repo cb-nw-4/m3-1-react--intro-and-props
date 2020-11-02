@@ -18,7 +18,6 @@ header {
 #avatars{
   display: flex;
   justify-content: center;
-  padding:20px;
 }
 
 #avatars>div>p{
@@ -26,5 +25,6 @@ header {
   text-align: center;
 }
 header>div{
-  margin-inline-end: 30px;
+  margin-inline: 30px;
+  padding:20px;
 }
