@@ -14,9 +14,12 @@ const ChatMessage = (props) => {
 
 const SentMessage = (props) => {
     return (
-        <div className='chat-message'>  
-            <p className='user-message user-message-sent'>{props.message.body}</p>       
-        </div>
+        <div className='chat-message'> 
+            <div className='chat-bubble'>            
+                <p className='user-message user-message-sent'>{props.message.body}</p> 
+                <img className='sent-bubble' src="/assets/tip-sent.svg" alt="bubble"/>  
+            </div>
+        </div> 
      );
 };
 
@@ -25,7 +28,10 @@ const ReceivedMessage = (props) => {
         <Avatar src={props.message.user.avatar} size={{width: "35px", height: "35px"}} alt="avatar" />
         <div>
             <p className='user-name'>{props.message.user.username}</p>
-            <p className='user-message'>{props.message.body}</p>
+            <div className='chat-bubble'>   
+                <p className='user-message'>{props.message.body}</p>
+                <img className='received-bubble' src="/assets/tip-received.svg" alt="bubble"/>  
+            </div>
         </div>
     </div>;
 };
