@@ -3,7 +3,12 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = (props) => {
-  return <footer>{/* Your code here! */}</footer>;
+  return <footer>{
+      <div className='text-div'>
+        <textarea className='text-input' />
+      </div>
+    }
+  </footer>;
 };
 
 export default Footer;
