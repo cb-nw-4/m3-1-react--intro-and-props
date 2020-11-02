@@ -18,6 +18,9 @@ header {
 #avatars{
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
 }
 
 #avatars>div>p{
