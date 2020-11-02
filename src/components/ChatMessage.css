@@ -20,10 +20,31 @@
   font-size: 80%;
 }
 .text-message {
-  background-color: lightgray;
+
   border-radius: 20px;
-  padding: 10px;
+ 
   max-width: 400px;
   height: 50px;
   padding: 15px;
+}
+.current-user { 
+  background-color: #1185f7; 
+  color:#FFF;
+} 
+.other-user { 
+  background-color: #e9e9eb; 
+  color: #000;
+} 
+.tip-sent { 
+display:flex;
+}  
+.tip-sent img { 
+  margin-left: -5px;
+}
+.tip-received { 
+display:flex; 
+
+} 
+.tip-received img{ 
+  margin-right:-5px;
 }
