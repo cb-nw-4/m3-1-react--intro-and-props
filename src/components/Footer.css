@@ -3,6 +3,21 @@ footer {
     These two lines replicate the "blurry white background"
     effect, as seen in iMessage
   */
+  height: 65px;  
   backdrop-filter: blur(40px);
   background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  height: 40px;
+  width: 350px;
+  border-radius: 15px;
+  border: solid 2px lightgray;
 }

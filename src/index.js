@@ -8,7 +8,11 @@ import './styles.css';
 
 const rootElement = document.getElementById('root');
 
+
 ReactDOM.render(
-  <App currentUser={data.currentUser} conversation={data.conversation} />,
+  <div className='main-container'>
+    <App currentUser={data.currentUser.user1} conversation={data.conversation} />
+    <App currentUser={data.currentUser.user2} conversation={data.conversation} />
+  </div>,
   rootElement
 );

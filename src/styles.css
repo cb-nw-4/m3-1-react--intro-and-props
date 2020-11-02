@@ -8,3 +8,8 @@ body {
 *:after {
   box-sizing: border-box;
 }
+
+.main-container {
+  display: flex;
+  justify-content: center;
+} 

@@ -6,12 +6,19 @@ import Footer from './Footer';
 
 import './App.css';
 
-const App = (props) => {
-  return (
+const App = (props) => {  
+  return (     
     <div className='wrapper'>
-      <Header />
-      <ChatStream />
-      <Footer />
+      <Header        
+        participants={props.conversation.participants.filter((participant)=>{
+            return participant !== props.currentUser;
+        })}
+      />
+      <ChatStream 
+        currentUser={props.currentUser} 
+        messages={props.conversation.messages}
+      />
+      <Footer />    
     </div>
   );
 };
