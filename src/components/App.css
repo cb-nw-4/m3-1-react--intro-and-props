@@ -4,3 +4,11 @@
   display: flex;
   flex-direction: column;
 }
+
+body {
+  background-color: rgb(112, 139, 173);
+}
+
+header {
+  background-color: rgb(105, 130, 163);
+}

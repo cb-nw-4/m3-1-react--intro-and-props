@@ -6,7 +6,10 @@ const ReceivedMessage = ({theirAvatar, theirUser, theirMsg}) => {
         <img className='their-avatar' src={theirAvatar}></img>
         <div className='username-and-text'>
             <p className='their-username'>{theirUser.username}</p>
-            <p className='their-text'>{theirMsg.body}</p>
+            <div className='text-and-tip'>
+                <img className='received-tip' src='./assets/tip-received.svg'></img>
+                <p className='their-text'>{theirMsg.body}</p>
+            </div>
         </div>
     </div>
 }
