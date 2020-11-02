@@ -1,5 +1,19 @@
-.chat-message {
-  padding: 10px;
+.rcvd-message {
+  padding: 5px;
+}
+
+.sent-message {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sent-text {
+  color: white;
+  padding: 15px;
+  background-color: dodgerblue;
+  border-radius: 15px;
 }
 
 .username {
@@ -25,5 +39,4 @@
   padding: 15px;
   background-color: rgb(226, 226, 226);
   border-radius: 15px;
-  /* font-weight: bold; */
 }

@@ -2,7 +2,24 @@ import React from 'react';
 import './ChatMessage.css';
 
 const ChatMessage = (props) => {
-  return <div className='chat-message'>
+
+  if (props.messageType === 'sent') {
+    return <SentMessage message={props.message} />;
+  } else {
+    return <ReceivedMessage message={props.message} />;
+  }
+
+}
+
+const SentMessage = (props) => {
+  return <div className='sent-message'>
+    <div></div>
+    <div className='sent-text'>{props.message.body}</div>
+  </div>
+}
+
+const ReceivedMessage = (props) => {
+  return <div className='rcvd-message'>
     <div className='username'>{props.message.user.username}</div>
     <div className='detail'><img src={props.message.user.avatar} className='avatar-img' />
       <div className='msg-body'>{props.message.body}</div>
