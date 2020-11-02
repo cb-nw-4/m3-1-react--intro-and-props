@@ -14,15 +14,20 @@ const ChatMessage = (props) => {
 const SentMessage = (props) => {
   return <div className='sent-message'>
     <div></div>
-    <div className='sent-text'>{props.message.body}</div>
+    <div className='sent-text'>
+      {props.message.body}
+      <img src='/assets/tip-sent.svg' className='tip-sent' />
+    </div>
   </div>
 }
 
 const ReceivedMessage = (props) => {
   return <div className='rcvd-message'>
     <div className='username'>{props.message.user.username}</div>
-    <div className='detail'><img src={props.message.user.avatar} className='avatar-img' />
+    <div className='detail'>
+      <img src={props.message.user.avatar} className='avatar-img' />
       <div className='msg-body'>{props.message.body}</div>
+      <img src='/assets/tip-received.svg' className='tip-recieved' />
     </div>
   </div>
 }
