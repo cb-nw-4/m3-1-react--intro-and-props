@@ -41,9 +41,9 @@ Here's our new `ChatMessage` component:
 ```jsx
 const ChatMessage = (props) => {
   if (props.messageType === 'sent') {
-    return <SentMessage message={props.message} />;
+    return (<SentMessage message={props.message} />);
   } else {
-    return <ReceivedMessage message={props.message} />;
+    return (<ReceivedMessage message={props.message} />);
   }
 };
 ```
