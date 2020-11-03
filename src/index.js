@@ -11,8 +11,10 @@ const rootElement = document.getElementById('root');
 
 ReactDOM.render(
   <div className="appDiv ">
-  <App currentUser={data.currentUser} conversation={data.conversation} /> 
-  <App currentUser={data2.currentUser} conversation={data2.conversation} />
+  <App currentUser={data.currentUser} conversation={data.conversation} />  
+  <div className="border">
+  <App currentUser={data2.currentUser} conversation={data2.conversation} /> 
+  </div>
   </div>,
   rootElement 
   

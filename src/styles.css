@@ -8,10 +8,10 @@ body {
 *:after {
   box-sizing: border-box;
 }
- 
-.appDiv { 
-  display:flex;
-} 
-.border { 
-  border-right: 1px solid grey;
+
+.appDiv {
+  display: flex;
+}
+.border {
+  border-left: 1.5px solid lightgray;
 }
