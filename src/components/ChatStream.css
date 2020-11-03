@@ -8,5 +8,7 @@
   - a background color of #e9e9eb
 */
 .chat-stream {
+  margin-top: 100px;
+  margin-bottom: 60px;
   flex: 1;
 }
