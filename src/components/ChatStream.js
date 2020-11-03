@@ -1,4 +1,5 @@
 import React from 'react';
+import ChatMessage from './ChatMessage';
 
 import './ChatStream.css';
 
@@ -13,7 +14,7 @@ import './ChatStream.css';
 const ChatStream = (props) => {
   return <section className='chat-stream'>
     {props.messages.map((message) => {
-      return <div>{message.body}</div>;
+      return <ChatMessage message={message}/>;
     })}
     </section>;
 };

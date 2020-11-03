@@ -1,0 +1,29 @@
+.userName{
+    display: block;
+    margin:5px 0;
+    font-size: 0.8rem;
+  }
+  
+  .chat-message{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+  }
+
+  .avatar{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      align-self: flex-end;
+  }
+
+  .msg-body{
+      background-color: #e9e9eb;
+      margin: 0;
+      padding: 0.75rem 0.5rem;
+      border-radius: 10px;
+  }
+
+  .content{
+      margin: 0 10px;
+  }
