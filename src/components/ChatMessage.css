@@ -40,7 +40,6 @@
 
 .chat-message.sent > .tip-rcvd {
     display: none;
-
 }
 
 .chat-message.rcvd > .tip-sent {
@@ -53,7 +52,7 @@
     padding: 10px;
     margin-top: 0;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .chat-message.rcvd > .user-message {
