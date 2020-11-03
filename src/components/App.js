@@ -6,7 +6,7 @@ import Footer from './Footer';
 import './App.css';
 
 const App = (props) => {
-    //console.log(props)
+    console.log(props)
     
     return ( <div className = 'wrapper' >
         <Header 
@@ -16,7 +16,9 @@ const App = (props) => {
         <ChatStream  
             messages={props.conversation.messages}
             currentUser={props.currentUser}/ >
-        <Footer / >
+        <Footer 
+            messages ={props.conversation.messages}
+        / >
         </div>
     );
 };

@@ -28,7 +28,7 @@ const SentMessage =(props) =>{
 
             <div className= "bubbles">
                 <div className='bodyText'>{body}  </div>
-                <div className= 'floatImg'><img  src= "/assets/tip-sent.svg" /> </div>       
+                <div className= 'floatImg'><img src= "/assets/tip-sent.svg" alt='float img' /> </div>       
             </div>
             
         </div>
@@ -49,7 +49,7 @@ const ReceiveMessage =(props) =>{
             <div className='body'>
                 <div className='nameUser'>{user.username}</div>
                 <div className ="bubbles">
-                    <div className= 'floatImg' ><img  src= "/assets/tip-received.svg" />  </div>  
+                    <div className= 'floatImg' ><img  src= "/assets/tip-received.svg" alt='float img'/>  </div>  
                     <div className='bodyText'>{body} </div>
                 </div>
             </div>
