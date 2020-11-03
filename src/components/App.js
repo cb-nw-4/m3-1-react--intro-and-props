@@ -10,13 +10,13 @@ const App = (props) => {
   //console.log(props.conversation.participants,props.currentUser);
   return (
     <div className='wrapper'>
-      <Header 
-      participants={props.conversation.participants.filter(element=>element!=props.currentUser)}
-      />
-      <ChatStream 
-      messages={props.conversation.messages} 
-      currentUser={props.currentUser}/>
-      <Footer />
+        <Header 
+        participants={props.conversation.participants.filter(element=>element!=props.currentUser)}
+        />
+        <ChatStream 
+        messages={props.conversation.messages} 
+        currentUser={props.currentUser}/>
+        <Footer />
     </div>
   );
 };

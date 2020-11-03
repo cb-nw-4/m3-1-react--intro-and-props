@@ -36,12 +36,13 @@
     font-size: 14px;
     color: white;
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .sentTip{
     float:right;
     position: relative;
-    bottom:20px;
+    bottom:23px;
 }
 
 .receivedTip{
