@@ -13,9 +13,14 @@ const App = (props) => {
       <Header     
        participants={props.conversation.participants}
         currentUser={props.currentUser} />
+        <div className="chatStreamDiv">
       <ChatStream  
       messages={props.conversation.messages} 
-      currentUser={props.currentUser} />
+      currentUser={props.currentUser} /> 
+      </div>
+      <div className="pageFooter">
+
+      </div>
       <Footer />
     </div>
   );

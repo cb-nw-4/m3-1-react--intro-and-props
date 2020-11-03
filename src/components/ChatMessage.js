@@ -6,17 +6,10 @@ const ChatMessage = (props) => {
 
   if (props.messageType === "sent") {
     return (
-      <div className="chat-message">
-        <div>
-          <img className="avatar-img" src={props.message.user.avatar} />
-        </div>
-
-        <div>
-          <p className="username">{props.message.user.username}</p> 
-          <div className="tip-sent">
+      <div className="chat-message-user">
+        <div className="tip-sent">
           <p className="text-message current-user">{props.message.body}</p>
-          <img  src="/assets/tip-sent.svg" /> 
-          </div>
+          <img src="/assets/tip-sent.svg" />
         </div>
       </div>
     );

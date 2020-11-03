@@ -9,6 +9,12 @@
   height: 100px;
   display: flex;
   margin: 10px;
+} 
+
+.chat-message-user { 
+  display:flex; 
+  align-items:flex-end; 
+  justify-content: flex-end;
 }
 .avatar-img {
   height: 50px;
@@ -17,34 +23,38 @@
   margin-top: 40px;
 }
 .username {
-  font-size: 80%;
+  font-size: 90%; 
+  color:lightslategray ;
+  margin-bottom:-10px; 
+  margin-left:20px;
 }
 .text-message {
-
   border-radius: 20px;
- 
   max-width: 400px;
   height: 50px;
   padding: 15px;
 }
-.current-user { 
-  background-color: #1185f7; 
-  color:#FFF;
-} 
-.other-user { 
-  background-color: #e9e9eb; 
+.current-user {
+  background-color: #1185f7;
+  color: #fff;
+ 
+}
+.other-user {
+  background-color: #e9e9eb;
   color: #000;
-} 
-.tip-sent { 
-display:flex;
-}  
-.tip-sent img { 
+}
+.tip-sent {
+  display: flex; 
+  margin-right:50px;
+
+ 
+}
+.tip-sent img {
   margin-left: -5px;
 }
-.tip-received { 
-display:flex; 
-
-} 
-.tip-received img{ 
-  margin-right:-5px;
+.tip-received {
+  display: flex;
+}
+.tip-received img {
+  margin-right: -5px;
 }
