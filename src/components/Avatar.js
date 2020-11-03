@@ -5,19 +5,13 @@ import './avatar.css'
 const Avatar =(props) =>{
 
 
-    const {avatar, username} = props.participant;
+    const {avatar, size} = props.participant;
 
     return (
            <div className='avatar'>
-               <div>
-                   <img src={avatar} alt='avatar'/> 
-               </div>
-                
-                <div>{username}</div>
+                   <img className= 'float' src={avatar} width={size} alt='avatar'/> 
             </div>
             
-            
-
     ) 
 }
 

@@ -7,13 +7,20 @@ const Header = (props) => {
 
   return (
     <header>
-      {props.participants.map((participant,i) =>{
+        {props.participants.map((participant,i) =>{
         if(participant.username !== props.currentUser.username){
 
           return (
-            <Avatar 
-              key={i}
-              participant ={participant}/>
+            <React.Fragment  key={i}>
+              <div>
+                <Avatar 
+                  participant ={participant}/> 
+
+                <div>{participant.username}</div>
+              </div>
+              
+            </React.Fragment>
+                    
         ) 
         }
 
@@ -21,6 +28,7 @@ const Header = (props) => {
       }
       )
     }
+      
     </header>
   )
 }

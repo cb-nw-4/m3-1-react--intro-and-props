@@ -1,35 +1,57 @@
 .chat-message{
     display: flex;
     margin: 20px;
-   
 }
+
+
 .sent {
     justify-content: flex-end;
 }
 
-.avatar{
-    align-self: flex-end
+.received{
+    justify-content: flex-start;
 }
 
-img{
-    vertical-align: middle;
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
+.avatar{
+    align-self: flex-end;
+}
+
 .nameUser{
-    font-weight: bold;
-    padding: 0 20px;
-    margin: 10px 0;
+    font-weight: bold;  
+    margin: 10px;
 
 }
 
 .bodyText{
     padding: 20px;
     border-radius: 20px;
-    margin:  0 20px;
 }
+
+
+
+.floatImg{
+   margin: -5px;
+  
+}
+
+.bubbles{
+    display: flex;
+    align-items: flex-end;
+     
+}
+
+
 
 .sent .bodyText{
     color: #fff;
@@ -39,5 +61,8 @@ img{
 .received .bodyText{
     color: #000;
     background-color: #e9e9eb;
+    
 }
+
+
 

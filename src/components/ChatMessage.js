@@ -24,13 +24,11 @@ const SentMessage =(props) =>{
     const   {body} = props.message
              
     return (
-        <div className='chat-message sent'>  
-            <div>
-                
-                <div className='bodyText'>
-                    {body}
-                </div>
-                
+        <div className='chat-message sent'> 
+
+            <div className= "bubbles">
+                <div className='bodyText'>{body}  </div>
+                <div className= 'floatImg'><img  src= "/assets/tip-sent.svg" /> </div>       
             </div>
             
         </div>
@@ -42,14 +40,20 @@ const ReceiveMessage =(props) =>{
     
     const   {user, body} = props.message 
     return (
+        
         <div className='chat-message received'>  
             <Avatar 
-                participant ={user}/>  
+                participant ={user} 
+                />  
 
-            <div className='bodyText '>
-                {body}
+            <div className='body'>
+                <div className='nameUser'>{user.username}</div>
+                <div className ="bubbles">
+                    <div className= 'floatImg' ><img  src= "/assets/tip-received.svg" />  </div>  
+                    <div className='bodyText'>{body} </div>
+                </div>
             </div>
-                
+    
         </div>
             
     

@@ -27,7 +27,6 @@ const ChatStream = (props) => {
           key={message.id}
           message={message}
           messageType={messageType}
-        
          />
       )
     })
