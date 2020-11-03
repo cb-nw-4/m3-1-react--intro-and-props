@@ -12,7 +12,7 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(
   <div style={{display: "flex"}}>
     <App currentUser={data.currentUser} conversation={data.conversation} />
-    <App currentUser={newData.currentUser} conversation={newData.conversation} />
+    <App currentUser={data.newcurrentUser} conversation={data.conversation} />
   </div>,
   rootElement
 );
