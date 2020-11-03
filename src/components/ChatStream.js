@@ -14,7 +14,10 @@ import './ChatStream.css';
 const ChatStream = (props) => {
   return <section className='chat-stream'>
     {props.messages.map((message) => {
-      return <ChatMessage message={message}/>;
+      return <ChatMessage 
+      message={message}
+      messageType = {message.user === props.currentUser? 'sent':'received'}
+      />;
     })}
     </section>;
 };

@@ -10,6 +10,10 @@
     margin: 20px 20px;
   }
 
+  .rowReverse{
+    flex-direction: row-reverse;
+  }
+
   .avatar{
       width: 35px;
       height: 35px;
@@ -20,10 +24,22 @@
   .msg-body{
       background-color: #e9e9eb;
       margin: 0;
-      padding: 0.75rem 0.5rem;
-      border-radius: 10px;
+      padding: 0.5rem 0.75rem;
+      border-radius: 18px;
   }
 
-  .content{
+  .content-received{
       margin: 0 10px;
+      margin-right: 60px;
   }
+
+  .content-sent{
+    text-align: right;
+}
+
+.content-sent> .msg-body {
+    background-color: #1185f7;
+    color: white;
+    text-align: right;
+    margin-left: 60px;
+}
