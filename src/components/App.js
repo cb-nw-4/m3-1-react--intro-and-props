@@ -10,7 +10,9 @@ const App = (props) => {
   console.log(props);
   return (
     <div className='wrapper'>
-      <Header />
+      <Header 
+      users = {props.conversation.participants}
+      currentUser = {props.currentUser}/>
       <ChatStream 
       messages = {props.conversation.messages}
       currentUser = {props.currentUser}
