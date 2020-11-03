@@ -1,0 +1,45 @@
+.userName{
+    display: block;
+    margin:5px 0;
+    font-size: 0.8rem;
+  }
+  
+  .chat-message{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+  }
+
+  .rowReverse{
+    flex-direction: row-reverse;
+  }
+
+  .avatar{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      align-self: flex-end;
+  }
+
+  .msg-body{
+      background-color: #e9e9eb;
+      margin: 0;
+      padding: 0.5rem 0.75rem;
+      border-radius: 18px;
+  }
+
+  .content-received{
+      margin: 0 10px;
+      margin-right: 60px;
+  }
+
+  .content-sent{
+    text-align: right;
+}
+
+.content-sent> .msg-body {
+    background-color: #1185f7;
+    color: white;
+    text-align: right;
+    margin-left: 60px;
+}
