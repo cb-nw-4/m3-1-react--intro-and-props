@@ -16,16 +16,18 @@ const ChatStream = (props) => {
   console.log(props);
 
   return <section className='chat-stream'>{
-    props.messages.map(message =>  {
+    props.messages.map((message) =>  {
 
+      let messageSent = true;
       if (message.user === props.currentUser) {
-        message.type  = 'sent';
+        messageSent = true;
+        message.type = 'sent';
       } else {
-        message.type  = 'received';
+        messageSent = false;
+        message.type = 'received';
       }
 
-
-      return <ChatMessage message={message} />
+      return <ChatMessage message={message} user={message.user} messageSent={messageSent}/>
     })
   }</section>;
 };
