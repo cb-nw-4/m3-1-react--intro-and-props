@@ -3,14 +3,20 @@ import ReactDOM from 'react-dom';
 
 import data from './data';
 import App from './components/App';
+import App1 from './components/App1.js'
 
 import './styles.css';
 
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(
-  <App
-  currentUser={data.currentUser}
-  conversation={data.conversation} />,
+    <div className='main-wrapper'>
+      <App
+      currentUser={data.currentUser}
+      conversation={data.conversation} />
+      {/* <App1
+      currentUser={data.currentUser1}
+      conversation={data.conversation} /> */}
+    </div>,
   rootElement
 );
