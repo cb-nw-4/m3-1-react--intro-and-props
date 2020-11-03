@@ -7,4 +7,27 @@ header {
   */
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15),
     0px 1px 0.5px rgba(0, 0, 0, 0.075);
+  display: flex;
+  justify-content: center;
+}
+
+.bobblehead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 1em;
+}
+
+.bob-name {
+  margin: 0;
+  text-align: center;
+}
+
+.bob-avatar {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  border-radius: 50%;
+  margin: 0.5em;
 }
