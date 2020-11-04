@@ -10,16 +10,16 @@ import './App.css'; //Same as App1
     // console.log(currentUser, conversation)
   const App1 = (props) => {
     return (
-        <div className='wrapper'>
+      <div className='wrapper'>
       <Header
-      participants={props.conversation.participants}
-      currentUser={props.currentUser}
+        participants={props.conversation.participants}
+        currentUser={props.currentUser}
       />
       <ChatStream
         messages={props.conversation.messages}
         currentUser={props.currentUser}
       />
-      <Footer />
+      <Footer class={props.class}/>
     </div>
   );
 };

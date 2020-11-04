@@ -19,7 +19,7 @@ import './App.css';
         messages={props.conversation.messages}
         currentUser={props.currentUser}
       />
-      <Footer />
+      <Footer class={props.class} />
     </div>
   );
 };

@@ -13,10 +13,14 @@ ReactDOM.render(
     <div className='main-wrapper'>
       <App
       currentUser={data.currentUser}
-      conversation={data.conversation} />
-      {/* <App1
+      conversation={data.conversation}
+      class='left-footer footer'
+      />
+      <App1
       currentUser={data.currentUser1}
-      conversation={data.conversation} /> */}
+      conversation={data.conversation}
+      class='right-footer footer'
+      />
     </div>,
   rootElement
 );
