@@ -1,0 +1,40 @@
+.chat-message {
+    display: flex;
+    
+    margin: 0 0 10px 0;
+    align-items: flex-end;
+}
+
+.user-avatar {
+    
+    margin: 0 10px 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+
+}
+
+.user-name {
+    font-size: 15px;
+    font-weight: bold;
+    color:#000;
+    margin-bottom: 10px;
+}
+
+.user-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e9e9eb ;
+    height: 55px;
+    border-radius: 15px;
+    padding: 10px;
+    margin:  0;
+}
+
+.message-sent {
+    margin-left: auto;
+    color:#FFF;
+    background-color: #1185f7;
+
+}
