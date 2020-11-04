@@ -35,7 +35,7 @@
     border-radius: 8px;
     font-size: 14px;
     color: white;
-    margin-right: 10px;
+    margin-right: 18px;
     margin-bottom: 5px;
 }
 
@@ -43,6 +43,7 @@
     float:right;
     position: relative;
     bottom:23px;
+    right:10px;
 }
 
 .receivedTip{

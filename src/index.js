@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import data from './data';
-import newData from './newData';
 import App from './components/App';
 
 import './styles.css';
