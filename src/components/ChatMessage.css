@@ -1,0 +1,43 @@
+.received-message > li{
+    color: #000;
+    background-color: #e9e9eb;
+    position: relative;
+    left: 50px;
+    margin: 10px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.received-message > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+}
+
+.received-message {
+    margin: 10px;
+}
+
+.received-message > p{
+    display: block;
+    position: relative;
+    left: 60px;
+    bottom: -20px;
+}
+
+.sent-message > li {
+    color: #FFF;
+    background-color: #1185f7;
+    margin: 10px;
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-end;
+    left: 1075px;
+}
