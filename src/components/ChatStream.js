@@ -14,7 +14,19 @@ const ChatStream = (props) => {
   console.log(props);
   return <section className='chat-stream'>
     {props.messages.map((message) => {
-    return (<ChatMessage key = {message.id} message = {message}/>);
+      let messageType = "sent";
+      if (message.user === props.currentUser){
+        messageType = "sent"
+      }
+      else {
+        messageType = "received"
+      }
+    return (<ChatMessage 
+      key = {message.id} 
+      message = {message}
+      user = {message.user}
+      messageType = {messageType}
+      />);
 })}
     </section>;
 
