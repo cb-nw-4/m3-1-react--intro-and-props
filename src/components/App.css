@@ -3,4 +3,12 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  border-left: 1px solid rgb(85, 84, 84);
+  position: relative;
+}
+
+
+header {
+  background-color: rgb(105, 130, 163);
 }

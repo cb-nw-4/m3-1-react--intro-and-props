@@ -1,8 +1,42 @@
-footer {
+.footer {
+  /* position: absolute; */
+  position: fixed;
+  bottom: 0;
+}
+
+.left-footer{
+  width: 50%;
+  left: 0;
+}
+
+.right-footer{
+  width: 50%;
+  right: 0;
+}
+
+.text-div{
   /* 
     These two lines replicate the "blurry white background"
     effect, as seen in iMessage
   */
   backdrop-filter: blur(40px);
   background-color: rgba(255, 255, 255, 0.4);
+  /* position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  /* padding: 1vh 91.2px; */
+  padding: 1vh 0;
+  display: flex;
+  justify-content: center;
 }
+
+.text-input{
+  width: 50%;
+  border-radius: 20px;
+  outline: none;
+  resize: none;
+  padding: 0.5vw;
+}
+
+

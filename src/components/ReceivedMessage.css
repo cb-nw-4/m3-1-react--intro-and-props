@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.whole-div{
+    display: flex;
+    margin: 2vh 0.8vw;
+}
+
+.their-avatar{
+    height: auto;
+    width: 3.5vw;
+    border-radius: 50%;
+    margin-right: 0.5vw;
+}
+
+.their-username{
+    font-weight: bold;
+}
+
+.text-and-tip{
+    position: relative;
+}
+.received-tip{
+    position: absolute;
+    bottom: 2px;
+    left: -15px;
+    width: 1.5vw;
+    height: auto;
+}
+
+.their-text{
+    background-color: #E9E9EB;
+    font-weight: bold;
+    padding: 0.8vw;
+    border-radius: 20px;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.my-div{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2vh 0.8vw;
+}
+
+.sent-tip{
+    position: absolute;
+    bottom: 2px;
+    right: -15px;
+    width: 1.5vw;
+    height: auto;
+}
+
+.my-msg {
+    font-weight: bold;
+    color: white;
+    background-color: #1185F7;
+    padding: 0.8vw;
+    border-radius: 20px;
+}
