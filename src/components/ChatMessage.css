@@ -1,0 +1,59 @@
+.rcvd-message {
+    padding: 5px;
+}
+
+.sent-message {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sent-text {
+    position: relative;
+    right: 10px;
+    color: white;
+    padding: 15px;
+    background-color: #1185f7;
+    border-radius: 15px;
+}
+
+.username {
+    display: inline;
+    position: relative;
+    left: 75px;
+    font-weight: bold;
+}
+
+.detail {
+    display: flex;
+    padding: 5px;
+}
+
+.avatar-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+.msg-body {
+    display: inline;
+    padding: 15px;
+    background-color: #e9e9eb;
+    border-radius: 15px;
+}
+
+.tip-recieved {
+    position: absolute;
+    left: 53px;
+    margin-top: 25px;
+}
+
+.tip-sent {
+    position: absolute;
+    right: -12px;
+    margin-top: 10px;
+    margin-right: 2px;
+}
