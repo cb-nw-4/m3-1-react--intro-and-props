@@ -9,4 +9,20 @@
 */
 .chat-stream {
   flex: 1;
+  margin-bottom: 100px;
+}
+
+.message-sent {
+  background-color: #1185f7;
+  color: #FFF;
+  margin: 0;
+}
+
+.message-received {
+  position: relative;
+  background-color: #e9e9eb;
+  color: #000;
+  left: 5px;
+  top: -20px;
+  margin-bottom: 0;
 }
