@@ -1,10 +1,23 @@
 header {
   height: 100px;
   background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* 
     Protip: layering multiple box shadows can create a
     richer shadow effect than just using a single one.
   */
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15),
     0px 1px 0.5px rgba(0, 0, 0, 0.075);
+}
+
+.user-images {
+  margin: 2rem;
+}
+
+.top-images {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
 }
